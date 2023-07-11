@@ -47,6 +47,7 @@ body {
     padding: 20px 40px;
     background:#E55473;
     border-radius: 8px;
+    border: 0px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
@@ -179,5 +180,29 @@ body {
     height: 396px;
     gap: 24px;
     padding-bottom: 128px;
+}
+.last-part {
+    background-image: url('/flower Asset/Rectangle 9.png');
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container {
+    display: flex;
+    gap: 16px;
+}
+input {
+    width: 700px;
+    height: 64px;
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
 }
 
